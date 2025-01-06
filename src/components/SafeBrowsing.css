@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.safe-browsing {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  left: -900px;
+}
+
+.title h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.safe-badge {
+  display: inline-block;
+  background-color: #e0f7fa;
+  color: #0288d1;
+  font-size: 1rem;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.stay{
+  text-align: center;
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 100px;
+  margin-left:700px;
+  /* margin: 0 auto; */
+}
+
+.card {
+  background-color: #1a73e8;
+  /* width: 100px; */
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-bright {
+  height: 450px;
+    background-color: #174ea6;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-bright img{
+    position: relative;
+    top: 30px;
+    /* left: 20px; */
+    width:200px;
+  }
+
+.card.light {
+  background-color: #e3f2fd;
+  color: black;
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+}
+
+.button{
+    /* border: 3px solid black; */
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    background-color: white;
+    color: #0940f3;
+    font-size: 24px;
+    border-radius: 50%;
+}
+.forbtn{
+    display: flex;
+    justify-content: end;
+}
+.button2{
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    background-color:rgb(37, 150, 190);
+    color: #ffff;
+    font-size: 24px;
+    border-radius: 50%;
+}
+.cardlight{
+    margin-top: -140px;
+}
+.cardlight2{
+    margin-top: -270px;
+}

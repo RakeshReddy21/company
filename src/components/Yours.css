@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  height: 200vh; /* Extend body height for scrolling */
+}
+
+.Yours-title {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.Yours-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chrome {
+  height: 300px;
+  width: auto;
+  border-radius: 10px;
+}
+.contents {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+.firefox {
+  height: 400px;
+  border-radius: 10px;
+}
+.buttons {
+  display: grid;
+}
+.contents2 {
+  display: flex;
+  margin-top: 40px;
+}
+.exp {
+  margin-top: 100px;
+}
+.imgtag {
+  margin: 30px;
+}
